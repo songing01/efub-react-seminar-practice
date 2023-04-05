@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const TodoItem = () => {
   return (
@@ -24,11 +24,6 @@ const Text = styled.div`
   flex: 1;
   font-size: 21px;
   color: #495057;
-  ${(props) =>
-    props.isDone &&
-    css`
-      text-decoration: line-through;
-    `}
 `;
 const Line = styled.hr`
   border: solid 1px #e3e3e3;
