@@ -18,20 +18,3 @@ todo 삭제
 
 localStorage로 todo 저장
 
-<h1>참고사항</h1>
-
-TodoList.js: TodoItem 컴포넌트를 map으로 렌더링.
-
-
-TodoItem.js: delete함수, toggle함수 구현
-
-
-TodoCreate.js: 입력받은 text로 새로운 아이템 생성.
-add함수 구현.
-생성하는 아이템 객체는 id, text, done를 필드로 가짐.
-단, 생성단계에서 done은 false로 초기화.
-
-
-App.js: local storage를 이용하여 데이터 저장 및 가져오기.
-각 컴포넌트에 props를 통해 필요한 값 전달.
-
